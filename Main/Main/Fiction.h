@@ -12,6 +12,6 @@ public:
 	Fiction(std::string book);
 	~Fiction();
 
-	std::string GetName();
+	std::string GetBookName();
 };
 

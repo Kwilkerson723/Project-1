@@ -1,6 +1,5 @@
 #include "Fiction.h"
-#include <iostream>
-#include <string>
+
 
 
 Fiction::Fiction()
@@ -16,7 +15,8 @@ Fiction::~Fiction()
 {
 }
 
-std::string Fiction::GetName()
+std::string Fiction::GetBookName()
 {
 	return std::string();
 }
+

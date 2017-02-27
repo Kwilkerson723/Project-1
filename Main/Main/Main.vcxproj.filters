@@ -21,9 +21,27 @@
     <ClCompile Include="Fiction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NonFiction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Books.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Employees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fiction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NonFiction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Books.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Employees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

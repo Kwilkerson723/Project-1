@@ -147,11 +147,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Books.cpp" />
+    <ClCompile Include="Employees.cpp" />
     <ClCompile Include="Fiction.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="NonFiction.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Books.h" />
+    <ClInclude Include="Employees.h" />
     <ClInclude Include="Fiction.h" />
+    <ClInclude Include="NonFiction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
