@@ -17,6 +17,6 @@ Fiction::~Fiction()
 
 std::string Fiction::GetBookName()
 {
-	return std::string();
+	return _fictionBook;
 }
 

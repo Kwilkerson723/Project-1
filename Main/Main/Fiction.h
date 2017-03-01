@@ -2,13 +2,14 @@
 #include <string>
 class Fiction
 {
-
-public:
+private:
 	std::string _fictionBook;
 
+public:
 
 
 	Fiction();
+	
 	Fiction(std::string book);
 	~Fiction();
 
