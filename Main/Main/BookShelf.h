@@ -7,7 +7,7 @@
 class Books
 {
 	//use this to add books to shelf, see course.cpp and .h
-	//add something to check that the book in on the shelf
+	//add something to check that the book is in the shelf
 	//douglas crockford
 private:
 	std::string _bookName;
@@ -15,7 +15,16 @@ private:
 	std::string _bookAuthor;
 	Fiction FicBook;
 	NonFiction NFicBook;
+public:
+
+
+
+
 	Books();
+	Books(std::string nameOfBook,std::string description, std::string author);
 	~Books();
+
+
+
 };
 

@@ -7,6 +7,10 @@ Books::Books()
 }
 
 
+Books::Books(std::string nameOfBook, std::string description, std::string author)
+{
+}
+
 Books::~Books()
 {
 }
